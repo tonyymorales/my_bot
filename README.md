@@ -24,3 +24,9 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ### launching slam toolbox
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=~/ros2_ws/src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
 
+### To Do List 
+- [ ] Serial Connection from RasPi to Arduino
+- [ ] ROS Node Publising /joint_states
+- [ ] 
+- [ ] Run existing ROS joint_state_publisher 
+

@@ -27,6 +27,8 @@ ros2 launch slam_toolbox online_async_launch.py slam_params_file:=~/ros2_ws/src/
 ### To Do List 
 - [ ] Serial Connection from RasPi to Arduino
 - [ ] ROS Node Publising /joint_states
-- [ ] 
-- [ ] Run existing ROS joint_state_publisher 
+- [ ] ROS Node Publishing /odom
+- [ ] URDF Description of robots
+- [ ] Run existing ROS robot_state_publisher (input: URDF & /joint_states, output: /tf)
+- [ ] Use Nav2 Stack with /tf and /odom to create map and localize
 
